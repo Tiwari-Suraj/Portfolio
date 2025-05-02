@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://Tiwari-Suraj.github.io/Portfolio",
-  "pathPrefix": "/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
