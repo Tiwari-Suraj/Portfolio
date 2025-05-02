@@ -11,3 +11,13 @@ body {
   width: 100%;
   font-family: 'outfit';
 }
+
+@media(max-width-768) {
+  body {
+    height: 100vh;
+    background: black;
+    color: white;
+    width: 100%;
+    font-family: 'outfit';
+  }
+}
