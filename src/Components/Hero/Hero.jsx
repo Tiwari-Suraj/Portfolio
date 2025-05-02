@@ -70,7 +70,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 1 }}
             className="hero-resume"
             onClick={() => {
-              downloadFileURL(PDF_FILE_URL);
+              window.open(PDF_FILE_URL, "_blank", "noopener,noreferrer");
             }}
           >
             My resume
