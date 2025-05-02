@@ -12,12 +12,12 @@ body {
   font-family: 'outfit';
 }
 
-@media(max-width-768) {
+@media(max-width:768px) {
   body {
     height: 100vh;
     background: black;
     color: white;
-    width: 80%;
+    width: 90%;
     font-family: 'outfit';
   }
 }
