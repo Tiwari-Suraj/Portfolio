@@ -49,7 +49,7 @@ const Hero = () => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
       >
-        I done my graduation from
+        I did my graduation from
         <span> Dr APJ Abdul Kalam Technical University</span>
       </motion.p>
       <div>
