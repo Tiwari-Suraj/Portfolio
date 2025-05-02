@@ -41,20 +41,16 @@ const Hero = () => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.3 }}
       >
-        <span>I'm Suraj Tiwari,</span> I am Full Stack MERN Developer Based In
-        India
+        <span>I'm Suraj Tiwari,</span> I am Full Stack MERN Developer based in
+        New Delhi (India)
       </motion.h1>
       <motion.p
         initial={{ y: -30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
       >
-        I am Full Stack MERN developer , I Have a Good knowledge in
-        <span>
-          {" "}
-          HTML5,CSS3,Bootstrap,JavaSript,React.JS,Node.js,Express.js and
-          MongoDB.
-        </span>
+        I done my graduation from
+        <span> Dr APJ Abdul Kalam Technical University</span>
       </motion.p>
       <div>
         <div className="hero-action">

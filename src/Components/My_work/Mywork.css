@@ -31,8 +31,8 @@
 
 .mywrok-container img {
     box-sizing: border-box;
-    width: 419;
-    height: 218;
+    width: 419px;
+    height: 218px;
     transition: 0.3s;
     cursor: pointer;
 }
