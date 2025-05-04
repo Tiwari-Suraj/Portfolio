@@ -4,7 +4,7 @@ import profile_img from "../../assets/profile_img.png";
 import { motion, spring } from "motion/react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-const PDF_FILE_URL = "/Suraj.pdf";
+const PDF_FILE_URL = import.meta.env.BASE_URL + "/Suraj.pdf";
 
 const downloadFileURL = (url) => {
   fetch(url)
