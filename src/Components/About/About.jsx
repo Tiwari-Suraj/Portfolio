@@ -49,7 +49,8 @@ const About = () => {
                 My passion for Full Stack MERN developer . I Have 2 Month
                 experienc for React Frontend Developer .But I have Good
                 knowledge HTML5,CSS3,Tailwind,
-                Css,Bootstrap,JavaSript,React.JS,Node.js,Express.js and MongoDB.
+                Css,Bootstrap,JavaSript,React.JS,Node.js, Express.js and
+                MongoDB.
               </span>
             </p>
           </div>
