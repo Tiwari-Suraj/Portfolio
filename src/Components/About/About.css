@@ -66,8 +66,9 @@
     }
 
     .about-tital h1 {
-        font-size: 50px;
+        font-size: 40px;
         padding: 0;
+        white-space: nowrap;
     }
 
     .about-section {
