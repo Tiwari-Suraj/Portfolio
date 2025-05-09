@@ -4,6 +4,7 @@ import mail_icon from "../../assets/mail_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
 import { motion } from "framer-motion"; // Make sure you're importing from framer-motion
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const formRef = useRef(); // 👈 useRef to reference the form
@@ -28,7 +29,7 @@ const Contact = () => {
     }).then((res) => res.json());
 
     if (res.success) {
-      alert(res.message);
+      toast(res.message);
       form.reset(); // 👈 This will now work since we're directly referencing the form
     }
   };
